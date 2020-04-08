@@ -8,3 +8,14 @@
     padding-left: 25px;
     max-width: 1250px;
 }
+.ml-explore-btn
+{
+    padding:10px 50px;
+    margin-top:20px;
+    font-size:15px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    background-color:#000000;
+    color:#ffffff;
+    font-family:-apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

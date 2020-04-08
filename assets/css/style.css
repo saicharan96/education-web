@@ -1,5 +1,5 @@
 @import 'component.css';
-
+@import 'media.css';
 
 /****navbar******/
 body
@@ -285,29 +285,33 @@ background-position: bottom right;
 .ml-home-banner img
 {
   position: absolute;
-  top: -78px;
-  right: 0px;
+  top: -15px;
+  right:20px;
   max-width: 450px;
   width: 100%;
+
 }
 /***section-home***/
 
 /***section-metrics***/
 .ml-metrics
 {
+  margin-top:30px;
   padding:15px 20px;
-  background-color:#04113ce0;
+  background-color:#ffffff00;
 }
 .ml-metrics h3
 {
-color: #ffffff;
+color: #000000;
 font-size:30px;
 line-height: 25px;
+font-family:-apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .ml-metrics p
 {
-  color: #ffffff;
+  color: #000000;
 font-size:18px;
+font-family:-apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .ml-mt-card
 {

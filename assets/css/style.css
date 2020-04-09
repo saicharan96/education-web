@@ -162,6 +162,7 @@ color:#000000;
 .ml-login
 {
     border:1px solid #646e79;
+    background-color:#4A6884;
     border-radius:2px;
 }
 .ml-signup
@@ -170,7 +171,7 @@ color:#000000;
     border-radius:2px; 
     background-color:rgb(101, 214, 49); 
 }
-.ml-signup a
+.ml-signup a, .ml-login a
 {
     color:#ffffff !important;
 }
@@ -224,7 +225,7 @@ color:#000000;
   display: block;
   clear: both;
   padding:20px 0px;
-  font-weight: 500;
+  font-weight: 600;
   font-size:15px;
   color: #646f79 !important;
   line-height:21px;
@@ -307,6 +308,7 @@ background-position: bottom right;
 {
 color: #000000;
 font-size:30px;
+font-weight:800;
 line-height: 25px;
 font-family:-apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -314,6 +316,7 @@ font-family:-apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantar
 {
   color: #000000;
 font-size:18px;
+font-weight:600;
 font-family:-apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .ml-mt-card
@@ -369,3 +372,91 @@ margin-top:30px;
   font-family:-apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+/****section-unique****/
+
+/****section-popular****/
+.ml-popular-topics
+{
+padding:75px 0px;
+height:auto;
+background-color:#f4faff;
+}
+.ml-popular-topics h3
+{
+  font-size:36px;
+  font-weight:700;
+  letter-spacing: 1.3px;
+  line-height:35px;
+  margin-bottom:25px;
+  text-align: center;
+  font-family:-apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.ml-nav-tabs
+{
+  width:100% !important;
+  margin-top:80px;
+  border-bottom:1px dashed #c9def1;
+}
+.ml-content
+{
+padding:50px 0px;
+}
+.ml-nav-tabs li
+{
+  color:#000000;
+  padding:0px 0px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+{
+  color:#ffffff !important;
+  background-color:#5ac72f !important;
+}
+.nav-pills>li>a
+{
+  font-weight:600;
+  font-size:16px;
+  color:#4a6884 !important;
+  border-radius: 0px !important;
+  background-color: #fdfdfd;
+  padding:10px 30px !important;
+}
+.ml-popular-card
+{
+  margin-top: 30px;
+  padding:10px;
+  height:420px;
+    box-shadow: 0 6px 38px 0 rgba(83,86,92,.05);
+    border: .9px solid #e6ecf3;
+    position: relative;
+    background-color: #fff;
+    cursor: pointer;
+    font-family:-apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    transition: transform .3s ease,box-shadow .3s ease,-webkit-transform .3s ease;
+}
+.ml-popular-card:hover {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  box-shadow: 0 12px 18px rgba(161,166,181,.2);
+}
+.ml-popular-card img
+{
+  max-width:500px;
+  background-color:#F6F6F6;
+  border-bottom:1px solid #F6F6F6;
+  width:100%;
+}
+.ml-popular-card h4
+{
+  padding:10px 0px;
+  font-size:20px;
+  font-weight:600;
+  color:#000000;
+}
+.ml-popular-card p
+{
+  font-size:15px;
+  font-weight:400;
+  color:#646E79;
+}

@@ -13,9 +13,22 @@
     padding:10px 50px;
     margin-top:20px;
     font-size:15px;
+    font-weight:600;
     letter-spacing: 0.7px;
     text-transform: uppercase;
     background-color:#000000;
     color:#ffffff;
     font-family:-apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.ml-button-contribute
+{
+    padding:10px 50px;
+    margin-top:20px;
+    font-size:15px;
+    font-weight:600;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    background-color:#000000;
+    color:#ffffff;
+    font-family:-apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;   
 }

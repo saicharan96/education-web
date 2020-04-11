@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search Engine Optimization (SEO) | MarkeLabs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../assets/images/logo/favicon.png" type="image/x-icon"  sizes="16x16" />
+    <meta name="description" content="Search Engine Optimization is the process of improving the quality and search volume of website traffic by increasing the visibility of a website through different search engines." />
+    <meta name="keywords" content="SEO Myths, SEM, SMM, Digital Marketing, Brand Marketing, Social Media Marketing, Tech SEO, Search Engine Optimization "/> 
+    <meta name="abstract" content="Search Engine Optimization (SEO) | MarkeLabs"> 
+    <meta name="subject" content="Search Engine Optimization (SEO) | MarkeLabs"> 
+    <meta itemscope itemtype="http://schema.org/WebSite" itemref="sitename sitelink facebook twitter">
+    <meta itemprop="name" content="Markelabs" id="sitename">
+    <link href="https://markelabs.com" itemprop="url" id="sitelink">
+    <meta name="og:site_name" content="markelabs.com">
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Search Engine Optimization (SEO) | MarkeLabs" />
+    <meta property="og:description" content=" Search Engine Optimization is the process of improving the quality and search volume of website traffic by increasing the visibility of a website through different search engines" /><meta property="og:image" content="http://markelabs.com/assets/images/logo.png"/>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@Markelabs" />
+    <meta name="twitter:title" content="MarkeLabs | Learn,Understand and Try your Marketing Skills" />
+    <meta name="twitter:description" content="Search Engine Optimization is the process of improving the quality and search volume of website traffic by increasing the visibility of a website through different search engines" /><meta name="twitter:image" content="http://markelabs.com/assets/images/logo.png" /> 
+    <link rel="canonical" href="http://markelabs.com/topics/seo" />
+    <link href="../../assets/css/style.css" rel="stylesheet" >
+    <link href=".../../assets/css/pagination.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id="ml-navbar"></div>
+<section class="ml-topic-banner">
+    <div class="ml-container">
+        <div class=" ml-whole-wrapper">
+       <h3 ><span>S</span>earch  <span>E</span>ngine  <span>O</span>ptimization</h3>
+       <div class="guide-search"><form class="guide-site-search"><input placeholder="Search for interesting Articles in SEO" autocomplete="off" class="guide-site-search__field live-search-box"></form></div>
+</div>
+</section>
+<section class="ml-topic-solutions">
+<div class="ml-container">
+   <div class="row live-search-list full-list">
+    <div class="col-md-3 topics topic-content">
+        <a href="../seo/what-is-seo.html">
+        <div class="ml-popular-card">
+            <img src="../../assets/images/topics/what-is-seo.jpg">
+            <h4>What is SEO?</h4>
+            <p>An introduction about SEO and its features in organic search marketing.</p>
+        </div>
+    </a>
+    </div>
+    <div class="col-md-3 topics topic-content">
+        <div class="ml-popular-card">
+            <img src="../../assets/images/topics/on-page-seo.png">
+            <h4>Onpage SEO Learning</h4>
+            <p>An deep analysis and learning on onpage SEO optimizations and its techniques.</p>
+        </div>
+    </div>
+      <div class="col-md-3 topics topic-content">
+        <div class="ml-popular-card">
+            <img src="../../assets/images/topics/marketing-content.jpg">
+            <h4>Quality Content writing</h4>
+            <p>covers about each minute tips that needs to be followed while writing content for webpage.</p>
+        </div>
+   </div> 
+
+<div class="col-md-3 topics topic-content">
+    <div class="ml-popular-card">
+        <img src="../../assets/images/topics/google-analytcis.png">
+        <h4>Google Analytics</h4>
+        <p>Basic knowledge and usage of google abnalytics from onpage verification to data driven.</p>
+    </div>
+</div> 
+
+
+
+</div>
+<p id="morelist" class="ml-view-all">View all Topics</p>
+<!-- <ul id="pagination" class="ml-pagination" ></ul> -->
+</section>
+
+<div id="footer"></div>
+  <script> 
+    $(function(){
+        $("#ml-navbar").load("../../navbar.html"); 
+        $("#hellobar").load("../../hellobar.html"); 
+      $("#footer").load("../../footer.html"); 
+    });
+    </script> 
+
+    <script>
+     jQuery(document).ready(function($) {
+      $(".live-search-list .topics").each(function() {
+        $(this).attr(
+          "data-search-term",
+          $(this)
+            .text()
+            .toLowerCase()
+        );
+      });
+
+      $(".live-search-box").on("keyup", function() {
+        var searchTerm = $(this)
+          .val()
+          .toLowerCase();
+
+        $(".live-search-list .topics").each(function() {
+          if (
+            $(this).filter("[data-search-term *= " + searchTerm + "]").length >
+              0 ||
+            searchTerm.length < 1
+          ) {
+            $(this).show();
+          } else {
+            $(this).hide();
+          }
+        });
+      });
+    });</script>
+    <!-- <script>
+        $(function(){
+    var pageSize = 20;
+
+    var pageCount = $(".topic-content").length / pageSize;
+
+    for (var i = 0; i < pageCount; i++) {
+      $("#pagination").append('<li><a href="#">' + (i + 1) + "</a></li> ");
+    }
+    $("#pagination li")
+      .first()
+      .find("a")
+      .addClass("current");
+    let showPage = function(page) {
+      $(".topic-content").hide();
+      $(".topic-content").each(function(n) {
+        if (n >= pageSize * (page - 1) && n < pageSize * page) $(this).show();
+      });
+    };
+
+    showPage(1);
+
+    $("#pagination li a").click(function() {
+      $("#pagination li a").removeClass("current");
+      $(this).addClass("current");
+      showPage(parseInt($(this).text()));
+    });
+  });
+    </script> -->
+
+    <script>
+$(".full-list .topics")
+  .slice(0, 8)
+  .show();
+$(".full-list .topics:hidden").css("opacity", 0);
+$("#morelist").on("click", function(e) {
+  $(".full-list .topics:hidden")
+    .slice(0, 4)
+    .slideDown("slow")
+    .animate(
+      {
+        opacity: 1
+      },
+      {
+        queue: false,
+        duration: "slow"
+      }
+    );
+  if ($(".full-list .topics:hidden").length == 0) {
+    $("#morelist").fadeOut("slow");
+  }
+  e.preventDefault();
+});
+
+</script>
+</body>
+</html>

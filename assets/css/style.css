@@ -436,6 +436,7 @@ padding:50px 0px;
     font-family:-apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     transition: transform .3s ease,box-shadow .3s ease,-webkit-transform .3s ease;
 }
+
 .ml-popular-card:hover {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
@@ -569,7 +570,7 @@ padding:0;
 }
 .ml-topic-desc-solutions
 {
-  padding:70px 0px;
+  padding:70px 0px 0px;
   max-width:800px;
   width:100%;
   margin:0 auto;
@@ -587,7 +588,7 @@ padding:0;
   font-family:-apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight:400;
   line-height:30px;
-  margin-top:40px;
+  margin-top:30px;
   letter-spacing: 0.3px;
   font-size:18px;
   color:#0e0f0f;
@@ -678,3 +679,72 @@ padding:0;
   background-color: #4A6884;
   color:#ffffff;
 }
+
+
+/****other popular cards***/
+
+.ml-other-popular-topics
+{
+  max-width:800px;
+  width:100%;
+  padding:10px 0px 40px;
+  margin:0 auto;
+}
+.ml-other-popular-topics h3
+{
+  padding:10px;
+  font-size:25px;
+  font-weight:600;
+  color:#000000; 
+}
+.ml-other-card:after{
+  content: "";
+  display: inline-block;
+  opacity: 1;
+  position: absolute;
+}
+.ml-other-card
+{
+  box-shadow: 0 6px 38px 0 rgba(83,86,92,.05);
+  padding:20px;
+  height:160px;
+  cursor: pointer;
+  position: relative;
+  background-color: #fff;
+  border: .9px solid #e6ecf3;
+}
+.ml-other-card:hover
+{
+  background-color:rgb(247, 247, 247);
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+.ml-other-card:hover:after {
+  -webkit-transform: translateX(8px);
+  transform: translateX(8px);
+}
+.ml-other-card:after {
+  width: 20px;
+  height: 20px;
+  bottom: 20px;
+   right:35px;
+  -webkit-transition: .3s ease-out!important;
+  transition: .3s ease-out!important;
+  background: url(../images/icons/arrow-black.png) 50%/contain no-repeat;
+}
+.ml-other-card h4
+{
+  padding:10px;
+  font-size:20px;
+  font-weight:600;
+  color:#000000; 
+}
+.ml-other-card p
+{
+  padding:0px 10px !important;
+  font-size:15px !important;
+  font-weight:400;
+  color:#646E79;
+}
+
+/****other popular cards***/

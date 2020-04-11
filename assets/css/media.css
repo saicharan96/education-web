@@ -17,4 +17,47 @@ display:none !important;
     line-height: 4.5rem !important;
     
 }
+.icon-bar
+{
+    display:none !important;
+}
+.ml-topic-desc-solutions {
+    padding: 70px 30px !important;
+}
+.ml-topic-desc-solutions p {
+    font-size:16px !important;
+    line-height: 26px !important;
+}
+.ml-topic-desc-solutions h5
+{
+    font-size:23px !important;
+}
+.ml-other-popular-topics {
+    padding: 10px 30px 40px !important;
+}
+.ml-footer
+{
+    padding:10px !important;
+}
+.ml-other-card
+{
+    margin-top:5px !important;
+}
+.ml-wrapper
+{
+    display:block !important;
+}
+.ml-footer
+{
+    height:100px;
+    padding: 30px 5px!important;
+}
+.ml-quick-links
+{
+    display:none;
+}
+.copyrights
+{
+    font-size:14px !important;
+}
 }

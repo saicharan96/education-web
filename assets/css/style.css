@@ -697,6 +697,15 @@ padding:0;
   font-weight:600;
   color:#000000; 
 }
+.ml-other-popular-topics p {
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 10px;
+  letter-spacing: 0.3px;
+  font-size: 18px;
+  color: #0e0f0f;
+}
 .ml-other-card:after{
   content: "";
   display: inline-block;

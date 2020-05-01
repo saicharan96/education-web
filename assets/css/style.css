@@ -702,6 +702,11 @@ padding:0;
   padding:10px 0px 40px;
   margin:0 auto;
 }
+.ml-other-popular-topics a
+{
+ text-decoration: none !important;
+}
+
 .ml-other-popular-topics h3
 {
   padding:10px;

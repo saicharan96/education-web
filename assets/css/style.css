@@ -774,3 +774,46 @@ padding:0;
 }
 
 /****other popular cards***/
+
+/****mailchimp forms***/
+
+.ml-mc-form
+{
+  max-width:500px;
+  box-shadow: 0 6px 38px 0 rgba(83,86,92,.05);
+  margin:100px auto;
+}
+.ml-mc-form select
+{
+  -webkit-border-radius: 2px !important;
+}
+#mc_embed_signup h2
+{
+  display:none;
+}
+#mc_embed_signup .mc-field-group select 
+{
+  -webkit-border-radius: 2px !important;
+}
+#mc_embed_signup .button {
+  clear: both;
+  background-color: #5ac72f !important;
+  border: 0 none;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  border-radius: 2px !important;
+  transition: all 0.23s ease-in-out 0s;
+  color: #ffffff !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: normal;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 5px 10px 0;
+  padding: 0 22px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: auto;
+}
